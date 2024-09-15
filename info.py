@@ -33,7 +33,7 @@ REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10e
 STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net')) # not support
 STREAM_API = (environ.get('STREAM_API', '6619765374f9caf51134d362c17da0b3309be2cf'))
 STREAMHTO = (environ.get('STREAMHTO', ''))
-BOT_USERNAME = environ.get("BOT_USERNAME", "JISSHU_BOT")
+BOT_USERNAME = environ.get("BOT_USERNAME", "Downloader_TGBot)
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '875770605').split()]
