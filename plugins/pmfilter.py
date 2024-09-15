@@ -1784,15 +1784,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #jisshu
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/MAP_Originals_Backup')
+            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/Hollywood_in_HindiHD')
         ],[
-            InlineKeyboardButton('🔍 ɢʀᴏᴜᴘ¹', url='https://t.me/+ZjmlLeuGGak5Yjhl'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ² 🔎', url='https://t.me/+ZjmlLeuGGak5Yjhl')
+            InlineKeyboardButton('🔍 ɢʀᴏᴜᴘ¹', url='https://t.me/hindi_movie_up'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ² 🔎', url='https://t.me/hindi_movie_up')
         ],[
-            InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/JISSHU_BOTS')
+            InlineKeyboardButton('✉️ ʀᴇǫᴜᴇꜱᴛ ɢʀᴏᴜᴘ ✉️', url='https://t.me/hindi_movie_up')
         ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/Jisshu_support')
+            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/+uetvaBu_d5k5MTU1')
         ]]
         reply_markup = InlinekeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1874,7 +1874,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://github.com/Jisshubot/Jisshu-Filter-Bot')
+            InlineKeyboardButton('Repo', url='https://t.me/Hollywood_in_HindiHD')
         ],[
             InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='about'),
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
