@@ -32,4 +32,4 @@ async def c_upload(client, message: Message):
         os.remove(downloaded_media)
 
     except Exception as e:
-        await msg.edit_text(f"Error: {str(e)}"
+        await msg.edit_text(f"Error: {str(e)}")
