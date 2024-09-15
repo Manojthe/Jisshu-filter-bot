@@ -59,7 +59,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @JISSHU_BOTS</b>")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @botsupports_og</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
@@ -136,7 +136,7 @@ else:
 STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 
 # online Stream and Download support only premium user, True or Flase
-JS_WEB_PREMIUM = is_enabled((environ.get('JS_WEB_PREMIUM', "True")), True)
+JS_WEB_PREMIUM = is_enabled((environ.get('JS_WEB_PREMIUM', "False")), True)
 
 # website themes changing (https://bootswatch.com)
 JS_THEMES = "cerulean"
