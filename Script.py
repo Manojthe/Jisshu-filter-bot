@@ -238,7 +238,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 NOTE:
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/botsupports_og">TG Downloader Bot</a></blockquote>
 
-developer : Mr.Jisshu
+developer : OG Team Bots
 </b>""" 
 
     
